@@ -1,0 +1,115 @@
+.container{
+    justify-content: center;
+        display: grid;
+        width: 100%;
+        height: 100%;
+    height:400px;
+    width: 400px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "input input input input"
+    "one two three decimal"
+    "four five six add"
+    "seven eight nine subtract"
+    "zero multiply divide equal"
+    "deleteInput deleteInput deleteInput deleteInput";
+}
+ 
+.input {
+    grid-area: input;
+    font-size: 30px;
+}
+button{
+    justify-content: center;
+    font-size: 30px;
+}
+ 
+.one {
+    grid-area: one;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.two {
+    grid-area: two;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.three {
+    grid-area: three;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.four {
+    grid-area: four;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.five {
+    grid-area: five;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.six {
+    grid-area: six;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.seven {
+    grid-area: seven;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.eight {
+    grid-area: eight;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.nine {
+    grid-area: nine;
+    background-color: lightblue;
+    font-size: 30px;
+}
+ 
+.zero {
+    grid-area: zero;
+    background-color: lightblue;
+    font-size: 30px;
+}
+.decimal {
+    grid-area: decimal;
+    font-size: 30px;
+}
+.add {
+    grid-area: add;
+    font-size: 30px;
+}
+.subtract {
+    grid-area: subtract;
+    font-size: 30px;
+}
+.multiply {
+    grid-area: multiply;
+    font-size: 30px;
+}
+.divide {
+    grid-area: divide;
+    font-size: 30px;
+}
+.equal {
+    grid-area: equal;
+    font-size: 30px;
+}
+.deleteInput{
+    grid-area: deleteInput;
+    font-size:30px;
+}
+
